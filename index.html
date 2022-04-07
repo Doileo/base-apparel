@@ -3,31 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link type="text/css" rel="stylesheet" href="styles.css">
+  <!-- Google Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
+  <header class="header">
+    <img class="logo" src="./images/logo.png" alt="logo">
+    <img class="logo" src="./images/hero-mobile.jpg" alt="A stylish young woman">
+  </header>
 
-  We're coming soon
+  <main class="container">
+    <div class="container-content">
+      <h1 class="title">We're <span>coming soon</span></h1>
+      <p class="content-description">Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
 
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
-
-  Email Address
+      <form>
+        <input type="email" name="email" id="email" placeholder="Email Address" required>
+        <button class="btn"><i class="fa-solid fa-chevron-right"></i></button>
+      </form>
+    </div>
+  </main>
   
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Doina</a>.
     </p>
   </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>

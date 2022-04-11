@@ -3,9 +3,14 @@
 /*-------------------*/
 
 :root {
+    /* colors*/
     --clr-dark: 0 6% 24%;
     --clr-soft-red: 0 93% 68%;
     --clr-desaturated-red: 0 36% 70%;
+
+    /* font-sizes */
+    --fs-600: 2.5rem;
+    --fs-400: 0.875rem;
 }
 /*-------------------*/
 /* Reset             */
@@ -31,6 +36,7 @@ p {
 body {
     line-height: 1.5;
     min-height: 100vh; /* it prevents short pages */
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 /* make images easier to work with */
@@ -74,12 +80,6 @@ select {
     gap: var(--gap, 1rem);
 }
 
-.container {
-    padding-inline: 2em;
-    margin-inline: auto;
-    max-width: 80rem;
-}
-
 .sr-only {
     position: absolute;
     width: 1px;
@@ -96,3 +96,52 @@ select {
 .text-dark { color: hsl( var(--clr-dark) );}
 .text-soft { color: hsl( var(--clr-soft-red) );}
 .text-desaturated { color: hsl( var(--clr-desaturated-red) );}
+
+/* typography */
+
+.uppercase { text-transform: uppercase; }
+
+.fs-600 { font-size: var(--fs-600); }
+.fs-400 { font-size: var(--fs-400); }
+
+
+/* Container's styles */
+
+.header {
+    height: 100px;
+}
+
+.header-logo {
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo {
+    position: absolute;
+    top: 31px;
+    left: 32px;
+}
+
+.container-content-description {
+    margin-top: 64px;
+    padding-inline: 2em;
+    margin-inline: auto;
+    max-width: 80rem;
+}
+
+h1 {
+    text-align: center;
+    line-height: 42px;
+    letter-spacing: 10.83px;
+    font-weight: 300;
+}
+
+span {
+    font-weight: 600;
+}
+
+.content-description {
+    padding: 15px 0;
+    text-align: center;
+    line-height: 22px;
+}

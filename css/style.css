@@ -172,3 +172,14 @@ input[type="email"] {
 i.fas.fa-chevron-right {
     color: hsl(0, 0%, 100%);
 }
+
+#error {
+    position: relative;
+}
+
+.error-icon {
+    position: absolute;
+    top: -29px;
+    left: 210px;
+    display: none;
+}

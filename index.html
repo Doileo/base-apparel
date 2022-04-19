@@ -16,39 +16,45 @@
 </head>
 
 <body>
-  <header class="header">
-    <div class="header-logo">
-      <img class="logo" src="./images/logo.png" alt="logo">
-    </div>
-  </header>
-
-  <main>
-    <div class="container-content">
-      <img class="hero-image" src="./images/hero-mobile.jpg" alt="A stylish young woman">
-      <div class="container-content-description">
-        <h1 class="title text-desaturated fs-600 uppercase">We're<br /> <span class="text-dark">coming soon</span></h1>
-        <p class="content-description text-desaturated fs-400">Hello fellow shoppers! We're currently building our new fashion store. 
-          Add your email below to stay up-to-date with announcements and our launch deals.
-        </p>
-
-        <form>
-          <input type="email" name="email" id="email" class="text-desaturated fs-400" placeholder="Email Address">
-          <button class="btn"><i class="fas fa-chevron-right"></i></button>
-        </form>
-        <div id="error">
-          <img class="error-icon" src="./images/icon-error.png" alt="A error icon">
-          <p class="error-message text-soft">Please provide a valid email</p>
+  <div id="container">
+    <header class="header">
+      <div class="header-logo">
+        <img class="logo" src="./images/logo.png" alt="logo">
+      </div>
+    </header>
+  
+    <main>
+      <div class="container-content">
+        <div class="container-image">
+          <img class="hero-image-mobile" src="./images/hero-mobile.jpg" alt="A stylish young woman">
+          <img class="hero-image-desktop" src="./images/hero-desktop.jpg" alt="A stylish young woman">
+        </div>
+        <div class="container-content-description">
+          <h1 class="title text-desaturated fs-600 uppercase">We're<br /> <span class="text-dark">coming soon</span></h1>
+          <p class="content-description text-desaturated fs-400">Hello fellow shoppers! We're currently building our new fashion store. 
+            Add your email below to stay up-to-date with announcements and our launch deals.
+          </p>
+  
+          <form>
+            <input type="email" name="email" id="email" class="text-desaturated fs-400" placeholder="Email Address">
+            <button class="btn"><i class="fas fa-chevron-right"></i></button>
+          </form>
+          <div id="error">
+            <img class="error-icon" src="./images/icon-error.png" alt="A error icon">
+            <p class="error-message text-soft">Please provide a valid email</p>
+          </div>
         </div>
       </div>
-    </div>
-  </main>
+    </main>
+    
+    <footer>
+      <p class="attribution text-dark">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Doina</a>.
+      </p>
+    </footer>
+  </div>
   
-  <footer>
-    <p class="attribution text-dark">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Doina</a>.
-    </p>
-  </footer>
 
   <script src="js/main.js"></script>
 </body>

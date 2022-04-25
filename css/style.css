@@ -4,7 +4,7 @@
 
 :root {
     /* colors*/
-    --clr-dark: 0 6% 24%;
+    --clr-dark:  0 6% 24%;
     --clr-soft-red: 0 93% 68%;
     --clr-desaturated-red: 0 36% 70%;
 
@@ -93,9 +93,9 @@ select {
 }
 
 /* colors */
-.text-dark { color: hsl( var(--clr-dark) );}
-.text-soft { color: hsl( var(--clr-soft-red) );}
-.text-desaturated { color: hsl( var(--clr-desaturated-red) );}
+.text-dark { color: hsl( var(--clr-dark) ); }
+.text-soft { color: hsl( var(--clr-soft-red) ); }
+.text-desaturated { color: hsl( var(--clr-desaturated-red) ); }
 
 /* typography */
 
@@ -156,27 +156,31 @@ span {
 }
 
 form {
-    display: block;
     height: 2.5rem;
     width: 100%;
-    position: relative;
 }
 
-
-input[type="email"] {
-    width: 100%;
-    height: 100%;
-    outline: none;
-    border: 1px solid #CE9898;
+form .input-box{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    outline: none;border: 1px solid #CE9898;
     border-radius: 100px;
     padding-left: 1.5rem;
-    opacity: 0.5;
+}
+
+.input-box input {
+    height: 100%;
+    outline: none;
+    height: 40px;
+    border: transparent;
+    transition: all 0.3s ease;
 }
 
 .btn {
     position: absolute;
-    width: 3.5rem;
-    height: 100%;
+    width: 4rem;
+    height: 42px;
     right: 0;
     top: 0;
     border: none;
@@ -197,32 +201,49 @@ i.fas.fa-chevron-right {
     color: hsl(0, 0%, 100%);
 }
 
-#error {
-    position: relative;
+.input-box input.input:focus{
+    border-color:hsl(0, 74%, 74%);
+}
+
+form.error input.input {
+    border-color:hsl(0, 74%, 60%);
 }
 
 .error-icon {
     position: absolute;
-    top: -29px;
-    left: 210px;
+    top: 8px;
+    left: 188px;
     display: none;
 }
 
-.error-message {
-    display: none;
+form.error .error-icon{
+    display: block;
+}
+
+form .text {
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 13px;
-    padding-top: 10px;
+    padding: 10px 0 15px 0;
+    color:hsl(0, 74%, 60%);
 }
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 55px;
     font-size: 11px;
+}
+
+a.footer-link {
+    color:hsl(0, 74%, 74%);
+    text-decoration: none;
+}
+
+a.footer-link:hover {
+    color:hsl(0, 74%, 60%);
 }
 
 @media screen and (min-width: 1024px) {
@@ -297,8 +318,6 @@ footer {
         margin: 1rem 0;
     }
 
-    
-
     .hero-image-mobile {
         display: none;
     }
@@ -308,23 +327,28 @@ footer {
     }
 
     .btn {
-        width: 6rem;
+        width: 4.5rem;
         border-radius: 2em;
     }
 
     .error-icon {
-        position: absolute;
-        top: -39px;
-        left: 200px;
         display: none;
     }
+    
+    form.error .error-icon{
+        display: block;
+        position: absolute;
+        top: 8px;
+        left: 220px;
+    }
 
-    .error-message {
-        display: none;
+    form .text {
         font-style: normal;
         font-weight: 400;
         font-size: 13px;
-        padding-top: 15px;
+        line-height: 13px;
+        padding-top: 20px;
+        color: hsl(0, 74%, 60%);
     }
 
     footer {

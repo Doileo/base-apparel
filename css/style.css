@@ -214,6 +214,7 @@ i.fas.fa-chevron-right {
     font-weight: 400;
     font-size: 13px;
     line-height: 13px;
+    padding-top: 10px;
 }
 
 footer {
@@ -231,7 +232,7 @@ footer {
         background-image: url(../images/bg-pattern-desktop.png);
         background-size: inherit;
         flex-basis: 50%;
-        padding: 4rem 0 5rem 6rem;
+        padding: 4rem 0 0 6rem;
     }
 
     #container {
@@ -309,5 +310,27 @@ footer {
     .btn {
         width: 6rem;
         border-radius: 2em;
-}
+    }
+
+    .error-icon {
+        position: absolute;
+        top: -39px;
+        left: 200px;
+        display: none;
+    }
+
+    .error-message {
+        display: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        padding-top: 15px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: flex-start;
+        padding: 4rem;
+        font-size: 11px;
+    }
 }

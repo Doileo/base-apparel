@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Doileo/base-apparel)
+- Live Site URL: [Add live site URL here](https://doileo.github.io/base-apparel/)
 
 ## My process
 
@@ -75,7 +75,7 @@ Defenitely it's a good idea to grasp more information and best practices about u
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Doina](https://doileo.github.io/base-apparel/)
+- Frontend Mentor - [@Doileo](https://www.frontendmentor.io/profile/Doileo)
+- Twitter - [@DLeovchin](https://twitter.com/DLeovchin)
 

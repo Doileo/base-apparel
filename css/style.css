@@ -348,6 +348,7 @@ a.footer-link:hover {
         font-size: 13px;
         line-height: 13px;
         padding-top: 20px;
+        padding-left: 25px;
         color: hsl(0, 74%, 60%);
     }
 

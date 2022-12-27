@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://your-solution-url.com)
+- Live Site URL: (https://your-live-site-url.com)
 
 ## My process
 
@@ -70,12 +70,11 @@ Defenitely it's a good idea to grasp more information and best practices about u
 
 ### Useful resources
 
-- [Example resource 1](https://dev.to/codemediaweb/simple-email-validation-in-javascript-css-57i6) - This helped me for understanding how Regex pattern works. I really liked this pattern and will use it going forward.
+- [Resource 1](https://dev.to/codemediaweb/simple-email-validation-in-javascript-css-57i6) - This helped me for understanding how Regex pattern works. I really liked this pattern and will use it going forward.
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Doina](https://doileo.github.io/portfolio/)
+- Frontend Mentor - [@Doileo](https://www.frontendmentor.io/profile/Doileo)
 

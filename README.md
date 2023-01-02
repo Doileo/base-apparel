@@ -6,6 +6,7 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -26,6 +27,11 @@ Users should be able to:
 - Receive an error message when the `form` is submitted if:
   - The `input` field is empty
   - The email address is not formatted correctly
+
+
+### Screenshot
+
+![](./images/screenshot-desktop-view.png)
 
 
 ### Links
@@ -70,7 +76,7 @@ Defenitely it's a good idea to grasp more information and best practices about u
 
 ### Useful resources
 
-- [Example resource 1](https://dev.to/codemediaweb/simple-email-validation-in-javascript-css-57i6) - This helped me for understanding how Regex pattern works. I really liked this pattern and will use it going forward.
+- [Resource](https://dev.to/codemediaweb/simple-email-validation-in-javascript-css-57i6) - This helped me for understanding how Regex pattern works. I really liked this pattern and will use it going forward.
 
 
 ## Author
